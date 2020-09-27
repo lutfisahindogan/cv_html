@@ -1,7 +1,7 @@
 /* GENERAL LAYOUT */
 
 .intro-frame-back-up {
-  background-color: #6e6c69;
+  background-color: #678cd2;
   height: 280px;
 }
 
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #4A4A4A!important;
+  color: #2b3c6d !important;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -23,7 +23,7 @@
   font-size: 40px;
   font-weight: 300;
   line-height: 50px;
-  color:#E5DED0;
+  color:#e5ecfd;
 }
 
 .profession {
@@ -47,7 +47,7 @@
 .white-line {
   height: 6px;
   width: 120px;
-  background-color: #E5DED0;
+  background-color: #e5ecfd;
   margin: 0 10px 40px 10px;
 }
 
@@ -64,6 +64,7 @@
   font-size: 16px;
   font-weight: bold;
   margin-left: 5px;
+  color: #4A4A4A !important;
 }
 .p-data-item2 span a{
   text-decoration: none;
@@ -85,7 +86,7 @@
   /* font-family: 'Dosis', sans-serif; */
   font-weight: 500;
   width: 80px;
-  color:#E5DED0;
+  color:#e5ecfd;
   text-transform: uppercase;
 }
 
@@ -105,13 +106,16 @@
 .separator-line {
   display: flex;
   justify-content: center;
-  background-color: #a8a5a5;
+  /*background-color: #a8a5a5;*/
+  background-color: #2f497c;
   margin-top: 25px;
   height: 2.2px;
   width: 100%;
 }
 
-
+a{
+  color: #4A4A4A;
+}
 /* Element Box */
 
 .column-with-title {
@@ -297,7 +301,7 @@
 
 .labeled-btn {
   display: flex;
-  background-color: #E5DED0;
+  background-color: #e5ecfd;
   padding: 8px 25px;
   cursor: pointer;
   border: none;

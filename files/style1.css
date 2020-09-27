@@ -42,7 +42,7 @@
 }
 
 .language-change-box div:hover {
-    background-color: #4b4b4b;
+    background-color: #304479;
 }
 
 .language-change-box div {
@@ -53,5 +53,5 @@
     border-bottom-right-radius: 5px;
 }
 .language-change-box div span {
-    color: #e5ded0 !important;
+    color: #e5ecfd !important;
 }
