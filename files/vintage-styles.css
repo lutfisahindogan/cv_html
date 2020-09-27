@@ -1,0 +1,634 @@
+/* GENERAL LAYOUT */
+
+.intro-frame-back-up {
+  background-color: #6e6c69;
+  height: 280px;
+}
+
+
+
+/* PERSONAL INFORMATION */
+
+.personal-info-box {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4A4A4A!important;
+  font-family: 'Dosis', sans-serif;
+}
+
+.name {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+  color:#E5DED0;
+}
+
+.profession {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+/* .hex-image {
+  width: 200px;
+  height: 300px;
+} */
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-line {
+  height: 6px;
+  width: 120px;
+  background-color: #E5DED0;
+  margin: 0 10px 40px 10px;
+}
+
+.p-data-row {
+  margin-top: 10px;
+}
+
+.p-data-item1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.p-data-item2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.p-data-item2 span a{
+  text-decoration: none;
+  color:#4A4A4A!important;
+}
+
+/* CV DOWNLOAD */
+
+.download-cv-box {
+  display: flex;
+  background-color: #6e6c69;
+  padding: 8px 25px;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  box-shadow: 0px 6px 24px -5px rgba(0,0,0,0.75);
+}
+
+.download-cv-text {
+  /* font-family: 'Dosis', sans-serif; */
+  font-weight: 500;
+  width: 80px;
+  color:#E5DED0;
+  text-transform: uppercase;
+}
+
+.download-cv-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.profile-box {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 50px;
+  text-align: justify;
+}
+
+.separator-line {
+  display: flex;
+  justify-content: center;
+  background-color: #a8a5a5;
+  margin-top: 25px;
+  height: 2.2px;
+  width: 100%;
+}
+
+
+/* Element Box */
+
+.column-with-title {
+  margin-top: 40px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.element-box {
+  /* padding: 0px 10px 0px 10px; */
+  margin-bottom: 20px;
+}
+
+.profile {
+  padding-top: 10px;
+}
+
+.item-title {
+  font-family: 'Playfair Display', sans-serif;
+  color: #4A4A4A;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.hex-icon {
+  position: absolute;
+  z-index: 100;
+  bottom: -25px;
+}
+
+
+/* Two column Layout (Education, Language, Courses / Work Experience, Voluntary Work) */
+
+.division-row {
+  margin-bottom: 20px;
+  margin: 0px!important;
+}
+
+.division-item {
+  display: flex;
+}
+
+.division-column-one {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.division-column-two-border {
+  border-left: 1.4px solid #D8D8D8;
+}
+
+.division-column-two-no-border {
+  border-left: 1.4px solid #FFF;
+}
+
+.division-column-two {
+  height: 100%;
+  padding: 0px 0px 0px 40px;
+}
+
+.division-left-item {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6e6c69;
+  font-family: 'Dosis', sans-serif;
+}
+
+.small-hex-icon {
+  position: absolute;
+  z-index: 100;
+  left: -12.5px;
+  top: 0.2px;
+}
+
+.division-right-item {
+  font-size: 16px;
+  color: #4A4A4A;
+}
+
+
+/* EDUCATION */
+
+.education-box {
+  height: 60px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.division-left-item {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.division-right-item {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Work Experience */
+
+.work-exp-box {
+  padding-top: 5px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+
+.work-exp-item {
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.work-exp-desc {
+  padding: 10px 0px 0px 0px;
+  text-align: justify;
+}
+
+
+/* LANGUAGE */
+
+.language-box {
+  height: 60px;
+}
+
+/* SKILLS */
+.skill-row {
+  height: 30px;
+}
+
+.skill-column-one {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill-name {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.rating-icon-container {
+  width: 25px;
+  margin-right: 5px;
+}
+
+/* The bar container */
+.big-bar-container {
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+}
+
+.small-bar-container {
+  display: none;
+}
+
+/* CERTIFICATIONS */
+
+.cert-row {
+  padding-bottom: 30px;
+}
+
+.certificate-item {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+}
+
+.cert-title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.labeled-btn {
+  display: flex;
+  background-color: #E5DED0;
+  padding: 8px 25px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+  box-shadow: -2px 7px 41px -9px rgba(0,0,0,0.67);
+}
+
+.labeled-btn:focus {
+  outline:0;
+}
+
+.labeled-btn:active {
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+
+/* VOLUNTARY WORK IS SAME AS WORK */
+
+/* COURSES */
+
+.course-box {
+  height: 60px;
+}
+
+
+/* ACHIEVEMENTS */
+
+.achievement-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.achievement-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 50px;
+  margin-bottom: 40px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.achievement-title {
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #4A4A4A;
+}
+
+.achievement-description {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/* REFERENCES */
+
+.reference-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+}
+
+.ref-box {
+  margin-bottom: 30px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+
+.ref-name {
+  color: #6e6c69;
+  font-weight: 700;
+}
+
+.ref-company {
+  font-weight: 400;
+}
+
+.ref-contact-details {
+  padding: 20px 0;
+  font-weight: 700;
+}
+
+.ref-email {
+  font-weight: 700;
+}
+
+.ref-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* CONTACT */
+
+.contact-row {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-field {
+  width: 60%!important;
+}
+
+.contact-field {
+  color: black;
+}
+
+.contact-form-btn-box {
+  padding: 50px;
+}
+
+
+/* MATERIALIZE INPUT CUSTOMIZATION */
+
+/* label color */
+  .input-field input, .input-field textarea {
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    border-bottom: 2px solid #D8D8D8!important;
+  }
+
+  .input-field label {
+    color: #4A4A4A;
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label,  .input-field textarea:focus + label {
+    color: #4A4A4A!important;
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus, .input-field textarea:focus {
+    border-bottom: 1px solid #4A4A4A!important;
+    box-shadow: 0 1px 0 0 #4A4A4A!important;
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #4A4A4A!important;
+    box-shadow: 0 1px 0 0 #4A4A4A!important;
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #4A4A4A!important;
+    box-shadow: 0 1px 0 0 #4A4A4A!important;
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #4A4A4A;
+    font-family: 'Dosis', sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+  }
+
+   
+
+
+
+
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black!important;
+  font-weight: 300px;
+}
+input::-moz-placeholder {
+  color: black!important;
+  font-weight: 300px;
+}
+input:-ms-input-placeholder {
+  color: black!important;
+  font-weight: 300px;
+}
+input:-moz-placeholder {
+  color: black!important;
+  font-weight: 300px;
+}
+
+.form-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+
+.form-btn:focus {
+  outline:0;
+}
+
+button:focus {
+  background-color: #6e6c69!important;
+}
+
+.plane-icon {
+  margin-left: -5px;
+}
+
+
+
+@media (max-width: 780px) {
+
+  .profile-box {
+    padding: 0px 10px;
+  }
+
+  .division-item {
+    line-height: 30px;
+  }
+
+  .achievement-box {
+    padding: 0px 10px;
+  }
+
+  .division-column-one {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .division-column-two {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .division-column-two-border {
+    border-left: 1.4px solid #FFF;
+  }
+
+  .small-hex-icon {
+    display: none;
+  }
+
+  .work-exp-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+  }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+  
+  .intro-frame-back-up {
+    height: 340px;
+  }
+
+  .white-line {
+    width: 50px;
+  }
+
+  .name {
+    text-align:center;
+  }
+
+  .contact-field {
+    width: 100%!important;
+  }
+
+  .big-bar-container {
+    display: none;
+  }
+  
+  .small-bar-container {
+    display: flex;
+  }
+}
+
+
+.editor, .editor p, .editor ul li, .editor ol li{
+  font-size: 16px;
+}
+.editor ul, .editor ol{
+  margin-left: 10px;
+}
+.editor ul{
+  list-style: disc;
+}
+
+.editor strong, .editor b{font-weight: 700;}
+.editor blockquote{border:none!important;}
+
+.embed-responsive{
+    margin:0 auto!important;
+    text-align: center;
+}
+.embed-responsive-item{
+  height:340px!important;
+  width:100%!important;
+  margin:0 auto!important;
+}
+
+@media only screen and (min-width:1000px) {
+    .embed-responsive-item{
+  height:340px!important;
+  width:60%!important;
+  margin:0 auto!important;
+    }
+}
+
